@@ -1,0 +1,20 @@
+<div ng-controller="HomeCtrl" ng-init="init()">
+
+    <div class="row">
+        <div class="col-sm-12">
+            <div back-img="{{currentImage.media.m}}" class="thumbnail"></div>
+
+        </div>
+        <div class="col-sm-12">
+            <button class="btn btn-primary pull-left" ng-click="direction('prev')" ng-disabled="!prevEnable">
+                Prev
+            </button>
+            <button class="btn btn-primary pull-right" ng-click="direction('next')" ng-disabled="!nextEnable">
+                Next
+            </button>
+        </div>
+
+    </div>
+
+
+</div>
